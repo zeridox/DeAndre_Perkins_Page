@@ -1,0 +1,735 @@
+body{
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, yellow); /* Standard syntax */
+	cursor:crosshair;
+}
+
+.space{
+	width:800px;
+	height:2000px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:rgba(255, 255, 255, 0);
+	border: 5px solid white;
+	margin-top:200px;
+	overflow: auto;
+	
+}
+h1{
+	margin-top:100px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: sans-serif;
+	color:white;
+	font-size: 30px;
+	text-align: center;
+}
+.main{
+	width:400px;
+	height:400px;
+	position:fixed;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#ffffff;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition:10s;
+    
+
+}
+.main2{
+	width:900px;
+	height:400px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: first; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+    animation-name: first;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition:10s;
+    
+
+}
+.main3{
+	width:1000px;
+	height:400px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: sixth; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 20s; /* Chrome, Safari, Opera */
+    animation-name: sixth;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition:20s;
+    
+
+}
+.main4{
+	width:800px;
+	height:300px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: second; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 30s; /* Chrome, Safari, Opera */
+    animation-name: second;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    transition:30s;
+    
+
+}
+.main5{
+	width:100px;
+	height:900px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: third; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 40s; /* Chrome, Safari, Opera */
+    animation-name: third;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    transition:40s;
+    
+
+}
+.main6{
+	width:50px;
+	height:400px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: second; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 50s; /* Chrome, Safari, Opera */
+    animation-name: second;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    transition:50s;
+    
+
+}
+.main7{
+	width:200px;
+	height:400px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition:1s;
+    
+
+}
+.main8{
+	width:300px;
+	height:700px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: fourth; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 50s; /* Chrome, Safari, Opera */
+    animation-name: fourth;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    transition:50s;
+    
+
+}
+.main9{
+	width:100px;
+	height:100px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: first; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 40s; /* Chrome, Safari, Opera */
+    animation-name: first;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    transition:40s;
+    
+
+}
+.main10{
+	width:200px;
+	height:600px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: second; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 30s; /* Chrome, Safari, Opera */
+    animation-name: second;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    transition:30s;
+    
+
+}
+.main11{
+	width:500px;
+	height:100px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: fourth; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 20s; /* Chrome, Safari, Opera */
+    animation-name: fourth;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition:20s;
+    
+
+}
+.main12{
+	width:1000px;
+	height:100px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: third; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 30s; /* Chrome, Safari, Opera */
+    animation-name: third;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    transition:30s;
+    
+
+}
+.main13{
+	width:300px;
+	height:800px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: second; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+    animation-name: second;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition:10s;
+    
+
+}
+.main14{
+	width:400px;
+	height:300px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: fifth; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 20s; /* Chrome, Safari, Opera */
+    animation-name: fifth;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition:20s;
+    
+
+}
+.main15{
+	width:900px;
+	height:400px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: sixth; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+    animation-name: sixth;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition:10s;
+    
+
+}
+.main16{
+	width:400px;
+	height:700px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: third; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 60s; /* Chrome, Safari, Opera */
+    animation-name: third;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    transition:60s;
+    
+
+}
+.main17{
+	width:100px;
+	height:400px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: first; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 20s; /* Chrome, Safari, Opera */
+    animation-name: first;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition:20s;
+    
+
+}
+.main18{
+	width:400px;
+	height:1000px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: fourth; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+    animation-name: fourth;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition:5s;
+    
+
+}
+.main19{
+	width:800px;
+	height:400px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: second; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
+    animation-name: second;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition:10s;
+    
+
+}
+.main20{
+	width:200px;
+	height:200px;
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#000000;
+	margin-top:200px;
+	overflow: auto;
+	border: 1px solid pink;
+	 -webkit-animation-name: first; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 60s; /* Chrome, Safari, Opera */
+    animation-name: first;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    transition:60s;
+    
+
+}
+
+.a{
+	width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: second; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: second;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition:1s;
+}
+.b{
+	width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: third; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: third;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition:1s;
+}
+
+
+.c{
+	width: 50px;
+    height: 50px;
+    background-color: orange;
+    position: relative;
+    -webkit-animation-name: fourth; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: fourth;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition:1s;
+}
+.d{
+	width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: fifth; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: fifth;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    transition:1s;
+}
+.e{
+	width: 50px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: fourth; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: fourth;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition:1s;
+}
+
+
+.f{
+	width: 50px;
+    height: 50px;
+    background-color: orange;
+    position: relative;
+    -webkit-animation-name: fifth; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: fifth;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition:1s;
+}
+.g{
+	width: 50px;
+    height: 50px;
+    background-color: orange;
+    position: relative;
+    -webkit-animation-name: sixth; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: sixth;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition:1s;
+}
+
+
+
+@-webkit-keyframes example {
+    0%   {background-color:rgba(0, 0, 0, 0.42); left:0px; top:0px;}
+    25%  {background-color:rgba(0, 30, 252, 0.53); left:1500px; top:0px;}
+    50%  {background-color:white; left:0px; top:0px;}
+    75%  {background-color:grey; left:0px; top:0px;}
+    100% {background-color:black; left:0px; top:0px;}
+}
+
+@-webkit-keyframes first {
+    0%   {background-color:rgba(128, 0, 51, 0.83); left:0px; top:1000px;}
+    25%  {background-color:#7cff00; left:500px; top:0px;}
+    50%  {background-color:rgba(255, 128, 152, 0.74); left:0px; top:0px;}
+    75%  {background-color:rgba(21, 132, 123, 0.71); left:0px; top:0px;}
+    100% {background-color:rgba(160, 104, 190, 0.51); left:300px; top:0px;}
+}
+
+@-webkit-keyframes second {
+    0%   {background-color:rgba(124, 0, 255, 0.67); left:0px; top:0px;}
+    25%  {background-color:#001fff; left:100px; top:00px;}
+    50%  {background-color:rgba(116, 181, 255, 0.72); left:-100px; top:;}
+    75%  {background-color:rgba(0, 247, 255, 0.68); left:100px; top:;}
+    100% {background-color:rgba(5, 44, 111, 0.81); left:0px; top:0px;}
+}
+@-webkit-keyframes third {
+    0%   {background-color:#07aa20; left:100px; top:0px;}
+    25%  {background-color:#47ff94; left:0px; top:0px;}
+    50%  {background-color:#7b9b5b; left:0px; top:200px;}
+    75%  {background-color:#ab9d31; left:0px; top:100px;}
+    100% {background-color:rgba(136, 0, 0, 0.73); left:1000px; top:0px;}
+}
+
+@-webkit-keyframes fourth {
+    0%   {background-color:#b76000; left:0px; top:0px;}
+    25%  {background-color:rgba(126, 0, 126, 0.68); left:100px; top:600px;}
+    50%  {background-color:rgba(101, 144, 196, 0.74); left:300px; top:;}
+    75%  {background-color:#d0ff00; left:100px; top:;}
+    100% {background-color:#ff00f7; left:0px; top:0px;}
+}
+@-webkit-keyframes fifth {
+    0%   {background-color:rgba(255, 144, 144, 0.66); left:100px; top:0px;}
+    25%  {background-color:#0a00ff; left:0px; top:100px;}
+    50%  {background-color:rgba(118, 127, 255, 0.64); left:0px; top:400px;}
+    75%  {background-color:rgba(0, 244, 220, 0.85); left:0px; top:100px;}
+    100% {background-color:rgba(203, 59, 110, 0.82); left:600px; top:0px;}
+}
+
+@-webkit-keyframes sixth {
+    0%   {background-color:#008a4e; left:0px; top:0px;}
+    25%  {background-color:rgba(0, 61, 255, 0.81); left:100px; top:00px;}
+    50%  {background-color:#765600; left:100px; top:;}
+    75%  {background-color:rgba(160, 116, 255, 0.77); left:100px; top:;}
+    100% {background-color:rgba(0, 0, 0, 0.64); left:0px; top:0px;}
+}
+
+
+
+.one{
+	width:100px;
+	height:100px;
+	border:none;
+	position:relative;
+	background-color:#bfff00;
+	float:left;
+	 -webkit-animation-name: sixth; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: sixth;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition:1s;
+
+}
+	
+.two{
+	width:100px;
+	height:100px;
+	border:none;
+	position:relative;
+	background-color:#ff35d6;
+	float:left;
+	 -webkit-animation-name: sixth; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: sixth;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition:1s;
+
+	
+	
+	
+}
+.three{
+	width:100px;
+	height:100px;
+	border:none;
+	position:relative;
+	background-color:#ffae00;
+	float:left;
+	 -webkit-animation-name: sixth; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: sixth;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition:1s;
+
+	
+	
+}
+.four{
+	width:100px;
+	height:100px;
+	border:none;
+	position:relative;
+	background-color:#00fffb;
+	float:left; 
+	-webkit-animation-name: sixth; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: sixth;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition:1s;
+
+	
+}
+.five{
+	width:100px;
+	height:100px;
+	border:none;
+	position:relative;
+	background-color:#1b00ff;
+	float:left;
+	top:100px;
+}
+.six{
+	width:100px;
+	height:100px;
+	border:none;
+	position:relative;
+	background-color:#1900f1;
+	float:left;
+	top:100px;
+}
+.seven{
+	width:100px;
+	height:100px;
+	border:none;
+	position:relative;
+	background-color:#1800e1;
+	float:left;
+	top:100px;
+}
+.eight{
+	width:100px;
+	height:100px;
+	border:none;
+	position:relative;
+	background-color:#1500c5;
+	float:left;	
+	top:100px;
+}
+.nine{
+	width:100px;
+	height:100px;
+	border:none;
+	position:relative;
+	background-color:#1200a9;
+	float:left;
+	top:200px;
+}
+.ten{
+	width:100px;
+	height:100px;
+	border:none;
+	position:relative;
+	background-color:#0f008d;
+	float:left;
+	top:200px;
+}
+.eleven{
+	width:100px;
+	height:100px;
+	border:none;
+	position:relative;
+	background-color:#0c0073;
+	float:left;
+	top:200px;
+}
+.twelve{
+	width:100px;
+	height:100px;
+	border:none;
+	position:relative;
+	background-color:#090059;
+	float:left;
+	top:200px;
+}
+.thirteen{
+	width:100px;
+	height:100px;
+	border:none;
+	position:relative;
+	background-color:#070043;
+	float:left;
+	top:300px;
+}
+.fourteen{
+	width:100px;
+	height:100px;
+	border:none;
+	position:relative;
+	background-color:#9a0000;
+	float:left;
+	top:300px;
+}
+.fifteen{
+	width:100px;
+	height:100px;
+	border:none;
+	position:relative;
+	background-color:#d74949;
+	float:left;
+	top:300px;
+	
+}
+.sixteen{
+	width:100px;
+	height:100px;
+	border:none;
+	position:relative;
+	background-color:#d74949;
+	float:left;
+	top:300px;
+	
+}
+
